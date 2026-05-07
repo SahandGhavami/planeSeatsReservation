@@ -1,0 +1,63 @@
+ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.seats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.seat {
+    display: flex;
+    align-items: flex-start;
+    flex: 0 0 20%;
+    padding: 5px;
+    position: relative;
+}
+
+.seat label {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1.5rem;
+    padding: 8px 0;
+    background: #138917;
+    border-radius: 5px;
+    color: black;
+}
+
+.seat label:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px rgb(6, 84, 6);
+}
+
+.seat input{
+    position: absolute;
+}
+
+.seat input[type = checkbox]:checked + label {
+    background : #b11414;
+    color: aliceblue;
+}
+
+.seating-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.text-right {
+    margin-right: 50px;
+    padding-top: 25px;
+}
+
+.reserve {
+    background: #0e184b;
+    color: aliceblue;
+}

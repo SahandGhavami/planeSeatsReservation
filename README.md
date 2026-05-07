@@ -1,5 +1,3 @@
-## Student: s309457 Seyed Mohammadghavami Sahand 
-
 ## React Client Application Routes
 
 - Route `/`: Main page of the application, where the user selects the plane type.
